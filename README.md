@@ -54,3 +54,6 @@ Para este proyecto, se utilizó el SegFormer, una arquitectura que unifica un co
 *	Decodificador ligero basado en MLP: SegFormer utiliza un decodificador sencillo basado en MLP. Este decodificador fusiona características de diferentes capas del codificador, combinando el contexto local y global para producir máscaras de segmentación precisas de manera eficiente.
 
 **NOTA:** Mayor información sobre el proyecto se puede encontrar en el video, la presentación y los códigos adjuntos en este repositorio. 
+
+[![VIDEO: ](https://youtu.be/6p256Yl81rk)](https://youtu.be/6p256Yl81rk)
+
