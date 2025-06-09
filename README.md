@@ -8,8 +8,10 @@ La visión computacional es un campo de la Inteligencia Artificial basada en el 
 En este proyecto se presenta la aplicación de visión computacional através del uso de la segmentación semántica de imágenes de leucocitos mediante SegFormer, una poderosa arquitectura que unifica Transformers con decoders compuestos por perceptrón multicapa (MLP), con el propósito de contribuir a la automatización del Conteo Diferencial de Leucocitos.
 
 **Objetivo**
-•	Implementar SegFormer para presentar un enfoque alternativo a la recreación de la tesis “ESTUDIO E IMPLEMENTACIÓN DE TÉCNICAS DE VISIÓN COMPUTACIONAL BASADAS EN APRENDIZAJE PROFUNDO PARA EL CONTEO DIFERENCIAL Y SEGMENTACIÓN DE LEUCOCITOS EN IMÁGENES DE ASPIRADO DE MÉDULA ÓSEA”, del licenciado Ángel Daniel Canales Ramírez.
-•	Presentar el proyecto y sus resultados utilizando un formato poco convencional, por ejemplo, a través de un repositorio de GitHub, una página Web, visión aumentada, etc. 
+\begin{itemize}
+\item	Implementar SegFormer para presentar un enfoque alternativo a la recreación de la tesis “ESTUDIO E IMPLEMENTACIÓN DE TÉCNICAS DE VISIÓN COMPUTACIONAL BASADAS EN APRENDIZAJE PROFUNDO PARA EL CONTEO DIFERENCIAL Y SEGMENTACIÓN DE LEUCOCITOS EN IMÁGENES DE ASPIRADO DE MÉDULA ÓSEA”, del licenciado Ángel Daniel Canales Ramírez.
+\item	Presentar el proyecto y sus resultados utilizando un formato poco convencional, por ejemplo, a través de un repositorio de GitHub, una página Web, visión aumentada, etc. 
+\end{itemize} 
 
 **Justificación**
 La implementación de tecnologías de visión computacional en el área de la salud ha sido de gran relevancia al facilitar y agilizar la detección, clasificación y observación de elementos en imágenes médicas. Es por ello por lo que, se considera importante poder estudiar y aprender estas tecnologías ya que han demostrado un potencial para automatizar y estandarizar el análisis de imágenes médicas.
