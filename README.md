@@ -1,31 +1,30 @@
-# Proyecto Final
-## Universidad de Guanajuato - Campus León, División de Ciencias e Ingenierías
-## NOMBRE DEL PROYECTO: Implementación de Técnicas de Visión Computacional para la Segmentación de Imágenes de Leucocitos. 
-## Elaborado por: Aurora Pinzón Arzola, a.pinzonarzola@ugto.mx
-## Programa educativo: Licenciatura en Física
-### Curso: Temas Selectos de Física (Aprendizaje Automático)
-### Profesor: Dr. Luis Carlos Padierna García
-### Ciclo escolar: Enero - Junio 2025
+# Proyecto Final 💻 - Segmentación de Imágenes de Leucocitos mediante SegFormer 
+```
+Universidad de Guanajuato - Campus León, División de Ciencias e Ingenierías
+Elaborado por: Aurora Pinzón Arzola, a.pinzonarzola@ugto.mx
+Programa educativo: Licenciatura en Física
+Curso: Temas Selectos de Física (Aprendizaje Automático)
+Profesor: Dr. Luis Carlos Padierna García
+Ciclo escolar: Enero - Junio 2025
+```
+🟥 **Introducción**
 
-
-**Introducción**
-
-Los glóbulos blancos o leucocitos forman parte del sistema inmune y participan en las respuestas inmunitarias innatas del cuerpo y en la producción de anticuerpos. Circulan por la sangre y organizan respuestas inflamatorias y celulares ante lesiones o agentes patógenos.
+🩸 Los glóbulos blancos o leucocitos forman parte del sistema inmune y participan en las respuestas inmunitarias innatas del cuerpo y en la producción de anticuerpos. Circulan por la sangre y organizan respuestas inflamatorias y celulares ante lesiones o agentes patógenos.
 
 La visión computacional es un campo de la Inteligencia Artificial basada en el aprendizaje profundo y las Redes Neuronales Convolucionales (CNN), ambas pertenecientes a Machine Learning, y cuyo uso ha aumentado en el campo de la salud debido a la gran cantidad de ventajas y buenos resultados reportados en la literatura.
 
 En este proyecto se presenta la aplicación de visión computacional através del uso de la segmentación semántica de imágenes de leucocitos mediante SegFormer, una poderosa arquitectura que unifica Transformers con decoders compuestos por perceptrón multicapa (MLP), con el propósito de contribuir a la automatización del Conteo Diferencial de Leucocitos.
 
-**Objetivo**
+🟧 **Objetivo**
 
 * Implementar SegFormer para presentar un enfoque alternativo a la recreación de la tesis “ESTUDIO E IMPLEMENTACIÓN DE TÉCNICAS DE VISIÓN COMPUTACIONAL BASADAS EN APRENDIZAJE PROFUNDO PARA EL CONTEO DIFERENCIAL Y SEGMENTACIÓN DE LEUCOCITOS EN IMÁGENES DE ASPIRADO DE MÉDULA ÓSEA”, del licenciado Ángel Daniel Canales Ramírez.
 * Presentar el proyecto y sus resultados utilizando un formato poco convencional, por ejemplo, a través de un repositorio de GitHub, una página Web, visión aumentada, etc. 
 
-**Justificación**
+🟨 **Justificación**
 
 La implementación de tecnologías de visión computacional en el área de la salud ha sido de gran relevancia al facilitar y agilizar la detección, clasificación y observación de elementos en imágenes médicas. Es por ello por lo que, se considera importante poder estudiar y aprender estas tecnologías ya que han demostrado un potencial para automatizar y estandarizar el análisis de imágenes médicas.
 
-**Marco Teórico**
+🟩 **Marco Teórico**
 
 Los leucocitos son un tipo de célula sanguínea producida en la médula ósea, y se encuentran en la sangre (representando aproximadamente 1% de nuestra sangre) y el tejido linfático (amígdalas, el timo, el bazo y la médula ósea). Los glóbulos blancos forman parte del sistema inmune y participan en las respuestas inmunitarias innatas y producción de anticuerpos.
 
@@ -39,21 +38,22 @@ Los Transformers se introdujeron en 2020 con el artículo “Attention Is All Yo
  
 Los Transfomers están constituídos por un encoder y un decoder. 
 
-*ENCODER*:
+➡️ *ENCODER*:
 Procesa la secuencia de entrada. Consiste de varias capas apiladas conformadas por subcapas: multi-head self-attention mechanism and the fully connected feed-forward network.
 * Multi-head self-attention mechanism: procesa la secuencia de entrada al determinar la relevancia o “atencións” que se le debe de asignar a diferentes partes del texto.
 * Feed-forward network: aplica una transformación a la secuencia procesada por el mecanismo de atención.
   
-*DECODER*:  
+➡️ *DECODER*:  
 Genera la secuencia de salida basada en la información del encoder, con la restricción de únicamente utilizar salidas conocidas (masked self-attention). 
 
-**Segformer**
+ **Segformer**
 
 Para este proyecto, se utilizó el SegFormer, una arquitectura que unifica un codificador jerárquico Transformer con un decodificador ligero de perceptrón multicapa (MLP). Su diseño destaca por dos características principales:
 *	Codificador Transformer jerárquico: Genera características multiescala a diferentes resoluciones, capturando tanto detalles finos como gruesos de la imagen. A diferencia de los transformadores tradicionales, SegFormer no utiliza codificaciones posicionales explícitas, lo que lo hace resistente a las variaciones de resolución de imagen entre el entrenamiento y la inferencia.
 *	Decodificador ligero basado en MLP: SegFormer utiliza un decodificador sencillo basado en MLP. Este decodificador fusiona características de diferentes capas del codificador, combinando el contexto local y global para producir máscaras de segmentación precisas de manera eficiente.
 
-**NOTA:** Mayor información sobre el proyecto se puede encontrar en el video, la presentación y los códigos adjuntos en este repositorio. 
+> ``📝`` **NOTA:** Mayor información sobre el proyecto se puede encontrar en el video, la presentación y los códigos adjuntos en este repositorio. 
 
-[![VIDEO: ](https://youtu.be/6p256Yl81rk)](https://youtu.be/6p256Yl81rk)
+[![VIDEO:](https://img.youtube.com/vi/FNfDsF6lk5Q/maxresdefault.jpg)](https://youtu.be/FNfDsF6lk5Q)
+
 
